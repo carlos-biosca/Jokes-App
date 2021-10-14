@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Acudits</title>
+  </head>
+  <body>
+    <header class="header">
+      <div id="temps" class="temps"></div>
+    </header>
+    <main id="main" class="main">
+      <div id="joke-box" class="joke-box">
+        <h2 class="joke-box__title">Preparat per riure?</h2>
+        <p id="chiste" class="joke-box__text"></p>
+        <form id="form" class="joke-box__form">
+          <input
+            type="radio"
+            name="rate"
+            id="1"
+            value="1"
+            class="joke-box__radio"
+          />
+          <label class="joke-box__label" for="1"
+            ><img
+              class="joke-box__face"
+              src="./assets/images/sad.png"
+              alt="sad face"
+          /></label>
+          <input
+            type="radio"
+            name="rate"
+            id="2"
+            value="2"
+            class="joke-box__radio"
+          />
+          <label class="joke-box__label" for="2"
+            ><img
+              class="joke-box__face"
+              src="./assets/images/serious.png"
+              alt="serious face"
+          /></label>
+          <input
+            type="radio"
+            name="rate"
+            id="3"
+            value="3"
+            class="joke-box__radio"
+          />
+          <label class="joke-box__label" for="3"
+            ><img
+              class="joke-box__face"
+              src="./assets/images/happy.png"
+              alt="happy face"
+          /></label>
+        </form>
+        <button id="pulsa" class="joke-box__button">Següent acudit</button>
+      </div>
+    </main>
+    <script src="js/jokes.js"></script>
+  </body>
+</html>
